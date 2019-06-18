@@ -1,5 +1,5 @@
 {% set name = "flask-rest-api" %}
-{% set version = "0.15.0" %}
+{% set version = "0.15.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dd8c72cce655010b15e40eafbd9f84b802c00c5394442bb939c2b95a29a7661a
+  sha256: bac5fc931b105789b7cc679015cc17a5b6c16418cd3d4716478f489e0a202345
 
 build:
   noarch: python
